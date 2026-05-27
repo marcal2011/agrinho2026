@@ -1,1 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Alertas Ambientais</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+    <header>
+        <h1>🌎 Sistema de Alertas Ambientais</h1>
+        <p>Monitoramento climático e agrícola</p>
+    </header>
+
+    <main class="container">
+
+        <div class="card seca">
+            <h2>🌵 Seca</h2>
+            <p>Umidade muito baixa na região.</p>
+            <button onclick="mostrarAlerta('seca')">
+                Ver Alerta
+            </button>
+        </div>
+
+        <div class="card queimadas">
+            <h2>🔥 Queimadas</h2>
+            <p>Risco elevado de incêndios.</p>
+            <button onclick="mostrarAlerta('queimada')">
+                Ver Alerta
+            </button>
+        </div>
+
+        <div class="card chuva">
+            <h2>🌧️ Excesso de Chuva</h2>
+            <p>Possibilidade de enchentes.</p>
+            <button onclick="mostrarAlerta('chuva')">
+                Ver Alerta
+            </button>
+        </div>
+
+        <div class="card pragas">
+            <h2>🐛 Pragas</h2>
+            <p>Infestação detectada em plantações.</p>
+            <button onclick="mostrarAlerta('praga')">
+                Ver Alerta
+            </button>
+        </div>
+
+    </main>
+
+    <section id="painel-alerta">
+        <h2>📢 Painel de Alertas</h2>
+        <div id="mensagem">
+            Nenhum alerta ativo.
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

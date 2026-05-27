@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f7f9;
+    color: #333;
+}
+
+header {
+    background: #0b6e4f;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    padding: 30px;
+}
+
+.card {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+.card h2 {
+    margin-bottom: 10px;
+}
+
+.card p {
+    margin-bottom: 15px;
+}
+
+button {
+    background: #0b6e4f;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #09543d;
+}
+
+#painel-alerta {
+    margin: 30px;
+    padding: 20px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+#mensagem {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Cores dos cards */
+
+.seca {
+    border-top: 6px solid #d4a017;
+}
+
+.queimadas {
+    border-top: 6px solid #d62828;
+}
+
+.chuva {
+    border-top: 6px solid #0077b6;
+}
+
+.pragas {
+    border-top: 6px solid #6a994e;
+}
