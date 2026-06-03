@@ -1,0 +1,1 @@
+esse projeto foi feito com HTML, CSS e JS. Durante as aulas de programação e IA do colégio Estadual Curitiba na cidade de Paranávai, e tem como foco um jogo sobre Sistemas De Alertas Ambientais Simula alertas de seca, queimadas, excesso de chuva e pragas :agroforte - Equilbrio entre produção e sustentabilidade
